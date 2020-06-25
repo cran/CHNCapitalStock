@@ -1,0 +1,9 @@
+62dddbe689973dbcdd87c249b5b54ddc *DESCRIPTION
+37e89623f2ba76e77ee402f497cccce9 *NAMESPACE
+ce1c08429bfdd5b226e10a549c07b414 *R/CompK.R
+0ae8a9ef07a4b5f4954978290ee604c4 *R/asset.R
+19efd78d3691256a226233b643cc2e7d *data/asset.rda
+3104fa37c797977e334eedadc9c7e46d *man/CompK.Rd
+9d2b387a1629dc5465a7374259975a9e *man/asset.Rd
+0ac9acc91a846dddb31095e5ebf8d19a *tests/testthat.R
+123ecc172ac69018f9ccb1ebbdf8ad0b *tests/testthat/test-provinces.R
