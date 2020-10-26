@@ -1,6 +1,6 @@
 Package: CHNCapitalStock
 Title: Compute Chinese Capital Stocks
-Version: 0.0.2
+Version: 0.1.0
 Authors@R: 
     person(given = "Pu",
            family = "Chen",
@@ -12,12 +12,13 @@ Encoding: UTF-8
 LazyData: true
 URL: https://github.com/common2016/CapitalStock
 RoxygenNote: 7.1.0
+Language: en-US
 Depends: R (>= 2.10)
 Imports: magrittr, dplyr
 Suggests: testthat
 NeedsCompilation: no
-Packaged: 2020-06-22 03:09:59 UTC; sheng
+Packaged: 2020-10-26 02:10:22 UTC; sheng
 Author: Pu Chen [aut, cre]
 Maintainer: Pu Chen <shengnehs@qq.com>
 Repository: CRAN
-Date/Publication: 2020-06-25 14:20:02 UTC
+Date/Publication: 2020-10-26 05:50:03 UTC
