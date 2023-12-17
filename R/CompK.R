@@ -8,9 +8,9 @@
 #' @param startyr a numeric scalar. When use the method by Chen (2020), \code{delta} is
 #' used before \code{startyr}, and after \code{startyr} depreciation in data \code{asset} is used.
 #' When use the method by Zhang (2008), the parameters is not useful.
-#' @param yr a numeric vector about years. If you only need capital stock before 2017,
-#'  you can use its default \code{NULL}. If you need to compute capital stocks in other
-#'  years (for example 2018,2019), you can set, for example, \code{yr = c(2018,2019)}.
+#' @param yr a numeric vector about years. If you only need capital stock before 2022,
+#'  you can use its default \code{NULL}. If you need to compute capital stocks after 2022,
+#'  you can set, for example, \code{yr = c(2023,2024)}.
 #' @param invest a numeric vector about investment, its length equal the length of
 #' \code{yr}, and its units is 100 million in current price.
 #' @param InvestPrice a numeric vector about price indices of investment,
@@ -37,15 +37,15 @@
 #' CompK(prv = 'xinjiang')
 #' # Compute capital stock in Xinjiang province in 1952-2017 with its price equaling 1 in 2000
 #' CompK(prv = 'xinjiang', bt = 2000)
-#' # compute capital stock in Beijing in 2018 and 2019
-#' CompK(yr = 2018:2019, invest = c(10801.2,11100),
+#' # compute capital stock in Beijing in 2023 and 2024
+#' CompK(yr = 2023:2024, invest = c(10801.2,11100),
 #'    InvestPrice = c(1.86*1.03,1.86*1.03*1.021),
 #'    prv = 'beijing',delta = 0.096)
 #' # ...
-#' # beijing 2018 35023.74246
-#' # beijing 2019 37336.21755
+#' # beijing 2023 42043.06533   1.9158000
+#' # beijing 2024 43681.68543   1.9560318
 #' # Compute capital stock in chongqing with its price equaling 1 in 1992 based on
-#' # Chen (2020)
+#' # Chen and Wan (2020)
 #' CompK(prv = 'chongqing', method = 'CP', startyr = 1996, bt = 1992)
 #'
 #' @export

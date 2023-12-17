@@ -5,7 +5,7 @@
 \alias{asset}
 \title{Assets}
 \format{
-An object of class \code{data.frame} with 2002 rows and 6 columns.
+An object of class \code{data.frame} with 2157 rows and 6 columns.
 }
 \usage{
 asset
